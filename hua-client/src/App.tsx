@@ -1,12 +1,21 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import DayView from './components/DayView';
+import Header from './components/Header';
+import PlantView from './components/PlantView';
+
+import {Torrance} from './dummyData.js';
 
 function App() {
-  return (
-    <div className="text-3xl font-bold underline">
-      <h1 >Hello world!</h1>
-    </div>
-  )
-}
+  const user = Torrance;
+  const [view, setView] = useState([]);
 
-export default App
+  return (
+    <div>
+      <Header userInfo = {user.userInfo}></Header>
+      <PlantView></PlantView>
+      <DayView></DayView>
+    </div>
+  );
+}
+export default App;
