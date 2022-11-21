@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-$primary: #344e41;
-$secondary: #588157;
-$primary-text: #dad7cd;
-$secondary-text: #a3b18a;
+$primary-text: #344e41;
+$secondary-text: #588157;
+$primary-background: #dad7cd;
+$secondary-background: #a3b18a;
 
 :root {
   font-family: 'Poppins', sans-serif;
   color: $primary-text;
-  background-color: $primary;
+  background-color: $primary-background;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

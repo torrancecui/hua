@@ -3,8 +3,8 @@
 @tailwind utilities;
 :root {
   font-family: "Poppins", sans-serif;
-  color: #dad7cd;
-  background-color: #344e41;
+  color: #344e41;
+  background-color: #dad7cd;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
