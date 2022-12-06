@@ -1,5 +1,3 @@
 import { Plant } from "./PlantType";
 
-export type PlantList = {
-    plants: Array<Plant>,
-}
+export type PlantList = Array<Plant>;

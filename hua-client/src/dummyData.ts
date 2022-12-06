@@ -7,8 +7,7 @@ export const Torrance:User = {
         lastName: 'Cui',
         email: 'cuitorrance@gmail.com',
     },
-    plantList: {
-        plants: [
+    plantList: [
             {
                 species: 'snake plant',
                 nickname: 'snakie',
@@ -26,7 +25,15 @@ export const Torrance:User = {
                     DayOfWeek.FRIDAY,
                 ],
             },
-        ]
-    },
+            {
+                species: 'poop plant',
+                nickname: 'poopy',
+                daysToWater: [
+                    DayOfWeek.MONDAY,
+                    DayOfWeek.THURSDAY,
+                    DayOfWeek.SATURDAY,
+                ],
+            },
+        ],
 };
 

@@ -1,10 +1,18 @@
-import DayView from './DayView';
-import PlantView from './PlantView';
+import { PlantList } from "../types/PlantListType";
+import DayView from "./DayView";
+import PlantView from "./PlantView";
 
-export default function ContentView(){
-    const showDayView = false;
-    const contentView = showDayView ? <DayView></DayView> : <PlantView></PlantView>;
+type Props = {
+    plantList: PlantList;
+};
+
+export default function ContentView({ plantList }: Props) {
+    const showDayView = true;
+    const contentView = showDayView ? (
+        <DayView plantList={plantList}></DayView>
+    ) : (
+        <PlantView plantList={plantList}></PlantView>
+    );
 
     return contentView;
-
 }
