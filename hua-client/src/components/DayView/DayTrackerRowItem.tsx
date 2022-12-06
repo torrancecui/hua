@@ -1,4 +1,4 @@
-import DayOfWeek from "../types/DayOfWeek"
+import DayOfWeek from "../../types/DayOfWeek"
 
 type Props = {
     dayName: DayOfWeek,

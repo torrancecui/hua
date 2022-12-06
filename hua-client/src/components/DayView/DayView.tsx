@@ -1,4 +1,4 @@
-import { PlantList } from "../types/PlantListType";
+import { PlantList } from "../../types/PlantListType";
 import DayViewRow from "./DayViewRow";
 
 type Props = {

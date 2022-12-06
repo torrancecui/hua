@@ -1,4 +1,4 @@
-import { Plant } from "../types/PlantType"
+import { Plant } from "../../types/PlantType"
 
 type Props = {
     plant: Plant

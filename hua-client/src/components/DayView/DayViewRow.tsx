@@ -1,4 +1,4 @@
-import { Plant } from "../types/PlantType"
+import { Plant } from "../../types/PlantType"
 import DayTrackerRow from "./DayTracker";
 
 type Props = {

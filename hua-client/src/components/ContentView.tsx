@@ -1,6 +1,6 @@
 import { PlantList } from "../types/PlantListType";
-import DayView from "./DayView";
-import PlantView from "./PlantView";
+import DayView from "./DayView/DayView";
+import PlantView from "./PlantView/PlantView";
 
 type Props = {
     plantList: PlantList;
