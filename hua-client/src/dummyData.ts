@@ -25,15 +25,6 @@ export const Torrance:User = {
                     DayOfWeek.FRIDAY,
                 ],
             },
-            {
-                species: 'poop plant',
-                nickname: 'poopy',
-                daysToWater: [
-                    DayOfWeek.MONDAY,
-                    DayOfWeek.THURSDAY,
-                    DayOfWeek.SATURDAY,
-                ],
-            },
         ],
 };
 
