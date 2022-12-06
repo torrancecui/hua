@@ -1,5 +1,5 @@
 import { PlantList } from "../types/PlantListType";
-import PlantViewRow from "./PlantViewRow";
+import DayViewRow from "./DayViewRow";
 
 type Props = {
     plantList: PlantList;
@@ -10,7 +10,7 @@ export default function DayView({ plantList }: Props) {
         <div>
             <h1>Day View</h1>
             {plantList.map(plant => {
-                return <PlantViewRow plant={plant}></PlantViewRow>
+                return <DayViewRow plant={plant}></DayViewRow>
             })}
         </div>
     );
